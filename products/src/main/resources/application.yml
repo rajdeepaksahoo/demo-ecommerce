@@ -1,0 +1,9 @@
+server:
+  port:
+
+spring:
+  application:
+    name: products-service
+  config:
+    import: "optional:configserver:http://localhost:1000"
+
